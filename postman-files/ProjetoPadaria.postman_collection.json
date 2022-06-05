@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "79257324-1dc1-4696-a8c5-a27d4f1e832c",
+		"name": "ProjetoPadaria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21101714"
+	},
+	"item": [
+		{
+			"name": "Consultar Todos os Produtos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/produtos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Produto por ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "id",
+						"value": "1",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{url}}/api/produtos/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"produtos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adicionar Produto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Pao de Mel\",\n    \"quantidade\": 20,\n    \"valor\": 2.00,\n    \"observacao\": \"doce\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/produtos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Produto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/produtos/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"produtos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Produto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Beijinho\",\n    \"quantidade\": 40,\n    \"valor\": 1.00,\n    \"observacao\": \"leite condensado\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/produtos/2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"produtos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,12 @@
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/handler/RestExceptionHandler.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/repository/ProdutoRepository_old.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/shared/ProdutoDTO.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/PrimeiroExemploApplication.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/services/ProdutoService.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/model/error/ErrorMessage.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/view/model/ProdutoResponse.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/view/controller/ProdutoController.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/repository/ProdutoRepository.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/model/Produto.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/view/model/ProdutoRequest.java
+/Users/cauesouza/Projects/BackEnd/primeiro-exemplo/src/main/java/com/teste/primeiroexemplo/model/exception/ResourceNotFoundException.java
